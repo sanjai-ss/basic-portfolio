@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Wix+Madefor+Text:ital@0;1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    background: #212529;
+}
+    .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navbar h2{
+    color: #ffb742;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover{
+    color:#ffb742;
+}
+.hire-btn{
+    padding:8px 30px;
+    background-color: #ffb742;
+    border-radius: 6px;
+    border:none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hire-btn:hover{
+    background-color: hsl(37, 100%, 43%);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    margin-top: 190px;
+}
+.main h4{
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+.main h4 span{
+    color: #ffb742;
+    text-decoration: underline;
+}
+.main .title{
+    font-size: 44px;
+    font-weight: 600;
+    color: white;
+    margin-top: 6px;
+}
+.main .subtitle{
+    font-size: 16px;
+    color: white ;
+    margin-top: 20px;
+}
+.main img{
+    width: 350px ;
+    height: 350px;
+    margin-top: 120px;
+}
+
+.separator{
+    display: inline-block;
+    background-color: hsl(210, 11%, 20%);
+    color: #ffb742;
+    border-radius: 12px;
+    margin: 50px 50px 30px;
+    padding: 10px 20px;
+    margin-left: 50px;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .info h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.about .info p{
+    color: white;
+    margin-top: 15px;
+    
+}
+.about .info button{
+    margin-top: 25px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+.skills .left{
+    height:200px;
+    width: 680px;
+
+}
+.skills .left .info h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;}
+.skills .left .info p{
+    color: silver;
+    font-size: 14px;
+}
+.skills .left .info button{
+    margin-top: 30px;
+
+}
+.skills .right{
+    width: 420px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+
+}
+.skills .right .item{
+    height:50px;
+    width: 50px;
+    background-color: hsl(210, 11%, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+}
+.skills .right .item i{
+    font-size: 35px;
+    color: #ffb742;
+}
+
+footer{
+    position: relative;
+    background-color: hsl(210, 11%, 7%);
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: hsl(37, 100%, 60%);
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16%;
+    left: 15%;
+}
+footer .start p{
+    font-size:13px;
+    width: 30%;
+}
+footer .start button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 8px 20px;
+    animation: all 0.3s ease;
+}
+footer .start button:hover{
+    background-color: white;
+    border-color: white;
+}
+
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+footer .cols .about-cols{
+    flex: 3;
+}
+footer .cols .about-cols h3{
+    color: #ffb742;
+    margin-bottom: 20px;
+}
+footer .cols .about-cols p{
+    color: silver;
+    font-size: 13px;
+}
+footer .cols .links-cols{
+    flex: 3;
+}
+footer .cols .links-cols h4 ,footer .cols .news-cols h4{
+    color: white;
+    margin-bottom: 20px;
+}
+footer .cols .links-cols a{
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 45%);
+    font-size: 13px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+footer .cols .links-cols a:hover{
+    color: #ffb742;
+}
+footer .cols .news-cols{
+    flex: 3;
+}
+footer .cols .news-cols p{
+    color: hsl(0, 0%, 45%);
+    font-size: 15px;
+}
+footer .cols .news-cols form{
+   position: relative;
+   width: 100%;
+   margin-top: 20px;
+}
+footer .cols .news-cols form input{
+    width: 100%;
+    color: hsl(0, 0%, 45%);
+    background-color: hsl(0, 0%, 15%);
+    border: none;
+    border-radius: 100px;
+    padding:13px;
+    font-size: 13px;
+    font-weight: 400;
+}
+footer .cols .news-cols form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffb742;
+    transition: background-color 0.3s ease;
+}
+footer .cols .news-cols form button:hover{
+    background-color: hsl(37, 100%, 43%);
+}
+footer .cols .news-cols form button i{
+    font-size: 26px
+}
